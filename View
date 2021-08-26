@@ -1,0 +1,13 @@
+@foreach (var item in ViewBag. ItemList) {
+
+<li class="list-group-item"> <div class="checkbox"> <input type="checkbox" id="Check @item. ItemID" checked="@item. IsAvailable"/> <label for="Check_@item. ItemID"item. ItemName</label>
+
+</div>
+
+</li>
+
+}
+
+<li class="list-group-item">
+
+<a class="btn btn-success btn-block" onclick="SaveList()" >Update Item</a>
