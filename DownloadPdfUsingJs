@@ -33,4 +33,7 @@
             };
             req.send();
         };
+        
+       
     </script>
+URL: https://www.aspsnippets.com/Articles/Automatically-download-PDF-File-using-JavaScript.aspx
