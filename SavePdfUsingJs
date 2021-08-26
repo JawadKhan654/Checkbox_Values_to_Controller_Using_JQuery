@@ -1,3 +1,4 @@
+https://pspdfkit.com/blog/2019/html-to-pdf-in-javascript/
 <script>
 			function generatePDF() {
 				// Choose the element that our invoice is rendered in.
