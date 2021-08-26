@@ -1,0 +1,6 @@
+function void stringsss(string arritem)
+string[] arr=arritem.split(',');
+foreach(var id in arr)
+{
+	var currentid=id;
+}
