@@ -1,0 +1,42 @@
+<script>
+
+var Savelist function () {
+
+var arrItem [];
+var commaSeparatedIds="";
+
+$("#ItemList 11 input[type=checkbox]").each(function (index,val) {
+
+debugger
+var checkId 5(val).attr("Id");
+
+var arr checkld.split('_');
+
+var currentCheckboxid = arr[1]:
+
+var Ischecked $("a"checkId).is(:checked", true);
+
+if (Ischecked) {
+
+arriten.push(currentCheckboxId);
+
+})
+
+if (arrItem.length !=0) [
+
+commaSeparatedIds arritem.toString();
+
+$.ajax({
+
+url:"/controller/action",
+type: "POST",
+
+data: {ItemList: commaSeparated Ids},
+
+success: function(response{
+}
+})
+
+}
+}
+</script>
